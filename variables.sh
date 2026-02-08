@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-person1="Suresh" # no spaces allowed in variable names
-person2="ramesh"
+person1="Hina" # no spaces allowed in variable names
+person2="Harry"
 
 echo "$person1:: Hello $person2 how are you doing?"
 echo "$person2:: I am doing good $person1, how about you?"

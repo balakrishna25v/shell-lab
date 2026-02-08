@@ -9,6 +9,4 @@ echo "user_name is $user_name"
 echo "enter your password:"
 read -s password
 
-echo " your password is $password"
-
-echo "your successfully logged in with username: $user_name and password: $password"
+echo "your successfully logged in with username: $user_name and password"

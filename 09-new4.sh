@@ -5,4 +5,6 @@ Num2=200
 
 SUM=$(($Num1 + $Num2))
 
-echo "Sum of $Num1 and $Num2 is: $SUM"
+echo "Sum of is: $SUM"
+
+echo "Happy Day to you"

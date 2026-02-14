@@ -14,7 +14,7 @@ if [$? -ne 0 ]; then
     echo "nginx installing --failed ."
     exit 1
 else
-    echo "nginx installed successfully."
+    echo "nginx installing successfully."
 fi
 
 dnf install mysql -y
@@ -22,5 +22,15 @@ if [$? -ne 0 ]; then
     echo " installing --MySQL....FAILURE."
     exit 1
 else
-    echo "Installing --Nginx....SUCCESS."
+    echo "Installing --MySQL....SUCCESS."
 fi
+
+dnf install nodejs -y
+
+if [$? -ne 0 ]; then
+    echo " installing Nodejs....FAILURE."
+    exit 1
+else
+    echo "Installing Nodejs....SUCCESS."
+fi
+

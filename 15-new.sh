@@ -14,7 +14,7 @@ mkdir -p $LOGS_FOLDER
 
 
 VALIDATE(){ 
-    if [ $1 -ne 0 ]; then
+    if [ $2 -ne 0 ]; then
         echo "$2 ....failed" | tee -a $LOGS_FILE
         exit 1
     else

@@ -23,7 +23,7 @@ VALIDATE()
 
 for package in $@ # Loop through each package name provided as an argument
 do
-    dnf install $package -y  # Install the package and redirect output to the log file
+    dnf install $package -y  &>> $LOGS_FILE # Install the package and redirect output to the log file
     VALIDATE $? "$package installation" # Validate the installation of
 
 done
